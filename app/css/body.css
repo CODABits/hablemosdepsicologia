@@ -48,3 +48,19 @@ html {
 .btn-social .fa- {
     color: #333; 
 }
+
+.video-circular {
+        width: 340px;
+        height: 340px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+    }
+    .video-circular video {
+        position: absolute;
+        width: auto;
+        height: 100%;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
